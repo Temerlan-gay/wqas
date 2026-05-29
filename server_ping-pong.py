@@ -11,4 +11,4 @@ def app(environ, start_response):
     status = "404 Not Found"
     headers = [("Content-Type", "text/plain")]
     start_response(status, headers)
-    return [b"Not Found"]   
+    return [b"Not Found"]
